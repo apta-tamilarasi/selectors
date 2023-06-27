@@ -1,0 +1,51 @@
+/*UNIVERSAL SELECTOR*/
+	*{margin:0;
+      padding:5px;
+      box-sizing:border-box}
+	  
+/*Simple SELECTOR*/
+
+	.priority1{
+		background-color:yellow;
+		font-size:25px;
+	}
+	.priority2{
+		background-color:yellow;
+		font-size:25px;
+	}
+	.priority3{
+		background-color:yellow;
+		font-size:25px;
+	}
+	#brown{
+		color:brown;
+	}
+	#green{
+		color:green
+	}
+
+/*Descendant SELECTOR*/
+	div h2{
+		color:blue
+	}
+			
+/*Child SELECTOR*/	
+	
+	h3>p{
+		color:brown;
+		background-color:yellow;
+	}
+	
+/*Adjacent SELECTOR*/
+
+	span+h3{
+		color:brown
+	}
+
+/*General SELECTOR*/	
+			
+	span~p{
+		color:green
+	}
+
+  
